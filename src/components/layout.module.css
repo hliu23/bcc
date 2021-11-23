@@ -1,0 +1,24 @@
+.container {
+  margin: auto;
+  max-width: 500px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: honeydew;
+}
+
+.heading {
+  color: cornflowerblue;
+}
+
+.nav-bar {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-link {
+  padding-right: 2rem;
+}
+
+.nav-link-text {
+  color: black;
+}
