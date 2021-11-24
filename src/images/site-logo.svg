@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style bx:fonts="Coda" bx:pinned="true">@import url(https://fonts.googleapis.com/css2?family=Coda%3Aital%2Cwght%400%2C400%3B0%2C800&amp;display=swap);</style>
+  </defs>
+  <text style="fill: rgb(100, 149, 237); font-family: Coda; font-size: 31px; font-weight: 800; white-space: pre;" transform="matrix(1.004787, 0, 0, 1, 10.557422, -93.140289)" x="16.024" y="181.853">BCC</text>
+</svg>

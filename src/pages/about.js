@@ -1,10 +1,20 @@
 import * as React from "react";
 import Layout from "../components/layout";
 
+import { StaticImage } from "gatsby-plugin-image";
+
 const AboutPage = () => {
   return (
     <Layout pageTitle="About">
-      about
+      <StaticImage
+        alt="the Brebeuf Coding Club logo"
+        src="../images/large-logo.png"
+      />
+      <p>photos of members? <br/>
+        slide presentation <br/>
+        poster <br/>
+        poster board?
+      </p>
     </Layout>
   );
 }
