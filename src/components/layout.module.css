@@ -14,6 +14,13 @@
   list-style: none;
   padding-left: 0;
 }
+/* 
+.nav-title {
+  font-size: 2rem;
+  color: cornflowerblue;
+  font-weight: 1000;
+  margin: 3rem 0;
+} */
 
 .nav-link {
   padding-right: 2rem;
@@ -22,3 +29,4 @@
 .nav-link-text {
   color: black;
 }
+

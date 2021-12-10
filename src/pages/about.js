@@ -8,7 +8,7 @@ const AboutPage = () => {
     <Layout pageTitle="About">
       <StaticImage
         alt="the Brebeuf Coding Club logo"
-        src="../images/large-logo.png"
+        src="../images/logo.png"
       />
       <p>photos of members? <br/>
         slide presentation <br/>

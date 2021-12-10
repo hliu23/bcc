@@ -1,3 +1,4 @@
-# 💻 Site of the Brebeuf Coding Club
+# 🚧💻 Brebeuf Coding Club 💻🚧
 
-[<img src="./src/images/logo-w-title.png" alt="Brebeuf Coding Club" height="25%" width="25%">](https://brebeufcodingclub.gatsbyjs.io/)
+## Visit our website!  
+[<img src="./src/images/logo.png" alt="Brebeuf Coding Club" height="25%" width="25%">](https://brebeufcodingclub.gatsbyjs.io/)
