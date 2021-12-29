@@ -28,13 +28,15 @@ const Layout = ({ pageTitle, children }) => {
         <li className={navLink}><Link to="/events" className={navLinkText}>Events</Link></li>
         <li className={navLink}><Link to="/projects" className={navLinkText}>Projects</Link></li>
         <li className={navLink}><Link to="/resources" className={navLinkText}>Resources</Link></li>
+        <li className={navLink}><Link to="/blog" className={navLinkText}>Blog</Link></li>
 
       </ul>
     </nav>
     <main>
+      <h1>Announcement</h1>
       <h1 className={heading}>{pageTitle}</h1>
       <div>{children}</div>
-      <div>{data.siteBuildMetadata.buildTime}</div>
+      {/* <div>{data.siteBuildMetadata.buildTime}</div> */}
     </main>
   </div>
   );
