@@ -5,10 +5,10 @@ import { MDXRenderer } from "gatsby-plugin-mdx";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 import Layout from "../../components/layout";
+import {photoCredit} from "../../styles/articles.module.css";
+
 
 const blogPost = ({ data }) => {
-  console.log(data);
-
   const image = getImage(data.mdx.frontmatter.hero_image);
 
   return (
@@ -18,15 +18,19 @@ const blogPost = ({ data }) => {
       image={image}
       alt={data.mdx.frontmatter.hero_image_alt}
     />
-    <p>
+    <p className={photoCredit}>
       Photo Credit:{" "}
       <a href={data.mdx.frontmatter.hero_image_link}>
         {data.mdx.frontmatter.hero_image_credit}
       </a>
     </p>
+
+    <h1>{data.mdx.frontmatter.title}</h1>
+    
     <MDXRenderer>
       {data.mdx.body}
     </MDXRenderer>
+    
   </Layout>
   )
 };
