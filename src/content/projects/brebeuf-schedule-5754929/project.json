@@ -1,0 +1,7 @@
+{
+  "name": "Brebeuf Schedule 5754929",
+  "description": "Apps Script project that let you receive notifications at the start of each class according to your personal schedule and the newest Brebeuf schedule.",
+  "github-links": ["https://github.com/hliu23/Brebeuf-Schedule-5754929"],
+  "image": "./icon.jpg",
+  "page": false
+}
