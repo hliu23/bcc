@@ -25,10 +25,10 @@ const Layout = ({ pageTitle, children }) => {
       <nav className="navBar">
         <ul className={custom.navBar}>
           <li className={custom.navLink}><Link to="/" className={custom.navLinkText}>Home</Link></li>
-          <li className={custom.navLink}><Link to="/events" className={custom.navLinkText}>Events</Link></li>
           <li className={custom.navLink}><Link to="/articles" className={custom.navLinkText}>Articles</Link></li>
           <li className={custom.navLink}><Link to="/projects" className={custom.navLinkText}>Projects</Link></li>
           <li className={custom.navLink}><Link to="/resources" className={custom.navLinkText}>Resources</Link></li>
+          <li className={custom.navLink}><Link to="/contact" className={custom.navLinkText}>Contact Us</Link></li>
         </ul>
       </nav>
       <main>
