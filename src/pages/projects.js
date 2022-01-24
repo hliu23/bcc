@@ -6,11 +6,12 @@ import Project from "../components/project";
 const projectsPage = () => {
   return (
     <Layout pageTitle="Projects">
-      projects of past, present and future <br/>
+      <p>Under Construction</p>
+      {/* projects of past, present and future <br/>
       thumbnails of github links, descriptions (from api?), and pictures
       <Project name="a">
         <h2>Hi!</h2>
-      </Project>
+      </Project> */}
     </Layout>
   );
 }

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
-import { page, container, customHeading, navBar, navLink, navLinkText } from "../styles/layout.module.css";
+import * as custom from "../styles/layout.module.css";
 
 
 const Layout = ({ pageTitle, children }) => {
@@ -19,21 +19,21 @@ const Layout = ({ pageTitle, children }) => {
   `)
 
   return (
-  <div className={page}>
-    <div className={container}>
+  <div className="container-fluid">
+    <div className={custom.container}>
       <title>{pageTitle} | {data.site.siteMetadata.title}</title>
-      <nav>
-        <ul className={navBar}>
-          <li className={navLink}><Link to="/" className={navLinkText}>Home</Link></li>
-          <li className={navLink}><Link to="/events" className={navLinkText}>Events</Link></li>
-          <li className={navLink}><Link to="/articles" className={navLinkText}>Articles</Link></li>
-          <li className={navLink}><Link to="/projects" className={navLinkText}>Projects</Link></li>
-          <li className={navLink}><Link to="/resources" className={navLinkText}>Resources</Link></li>
+      <nav className="navBar">
+        <ul className={custom.navBar}>
+          <li className={custom.navLink}><Link to="/" className={custom.navLinkText}>Home</Link></li>
+          <li className={custom.navLink}><Link to="/events" className={custom.navLinkText}>Events</Link></li>
+          <li className={custom.navLink}><Link to="/articles" className={custom.navLinkText}>Articles</Link></li>
+          <li className={custom.navLink}><Link to="/projects" className={custom.navLinkText}>Projects</Link></li>
+          <li className={custom.navLink}><Link to="/resources" className={custom.navLinkText}>Resources</Link></li>
         </ul>
       </nav>
       <main>
-        <h1 className={customHeading}>{pageTitle}</h1>
-        <div>{children}</div>
+        <h1 className={custom.title}>{pageTitle}</h1>
+        <div className={custom.content}>{children}</div>
         {/* <div>{data.siteBuildMetadata.buildTime}</div> */}
       </main>
     {/* announcement */}
