@@ -16,8 +16,10 @@ const blogPage = ({ data }) => {
               {node.frontmatter.title}
             </Link>
             </h2>
-            <small className="text-muted">Posted: {node.frontmatter.postDate}</small> <br/>
-            <small className="text-muted">Updated: {node.parent.modifiedTime}</small>
+            <p>
+              <small className="text-muted">Posted: {node.frontmatter.postDate}</small> <br/>
+              <small className="text-muted">Updated: {node.parent.modifiedTime}</small>
+            </p>
           </article>
         ))
           

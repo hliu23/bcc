@@ -29,7 +29,3 @@ iframe {
 .content {
   font-family: system-ui;
 }
-
-GatsbyImage {
-  object-fit: contain;
-}
