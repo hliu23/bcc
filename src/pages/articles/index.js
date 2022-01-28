@@ -2,20 +2,22 @@ import * as React from "react";
 import Layout from "../../components/layout";
 import { Link, graphql } from "gatsby";
 
+import * as custom from "../../styles/articles.module.css";
+
+
 const blogPage = ({ data }) => {
   return (
     <Layout pageTitle="Articles">
       <ul>
         {data.allMdx.nodes.map((node) => (
           <article key={node.id}>
-            
-            <h2>
+            <h2 className={custom.sectionTitle}>
             <Link to={`/articles/${node.slug}`}>
               {node.frontmatter.title}
             </Link>
             </h2>
-            <p>Posted: {node.frontmatter.postDate}<br/>
-            Updated: {node.parent.modifiedTime}</p>
+            <small className="text-muted">Posted: {node.frontmatter.postDate}</small> <br/>
+            <small className="text-muted">Updated: {node.parent.modifiedTime}</small>
           </article>
         ))
           

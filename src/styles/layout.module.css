@@ -8,7 +8,7 @@ body {
 
 .container {
   margin: auto;
-  max-width: 800px;
+  /* max-width: 800px; */
   
 }
 
@@ -17,38 +17,19 @@ body {
 }
 
 .title {
-  /* color: #171738; */
-  color: cornflowerblue;
+  color: #171738;
+  /* color: cornflowerblue; */
 
 }
-
-.nav-bar {
-  display: flex;
-  list-style: none;
-  padding-left: 0;
-}
-/* 
-.nav-title {
-  font-size: 2rem;
-  color: cornflowerblue;
-  font-weight: 1000;
-  margin: 3rem 0;
-} */
-
-.nav-link {
-  padding-right: 2rem;
-}
-
-.nav-link-text {
-  color: black;
-}
-
 iframe {
-  
-    width: 800px;
-    height: 600px
+  width: 800px;
+  height: 600px
 }
 
 .content {
   font-family: system-ui;
+}
+
+GatsbyImage {
+  object-fit: contain;
 }
