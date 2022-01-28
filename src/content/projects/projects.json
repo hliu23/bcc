@@ -1,0 +1,18 @@
+{
+  "brebeuf-schedule-5754929": {
+    "image": "images/brebeuf-schedule-5754929.jpg",
+    "name": "Brebeuf Schedule 5754929",
+    "authors": ["Sara Cikrit Schmit '22", "Hechen Liu '23"],
+    "description": "Apps Script project that let you receive notifications at the start of each class according to your personal schedule and the newest Brebeuf schedule. ",
+    "link": "https://github.com/hliu23/Brebeuf-Schedule-5754929",
+    "status": "Last Updated 2021/6/26"
+  },
+  "coding-club-website": {
+    "image": "images/coding-club-website.png",
+    "name": "Coding Club Website",
+    "authors": ["Hechen Liu '23"],
+    "description": "A website built with Gatsby and Bootstrap that contains information about the Brebeuf Coding Club, including current events, articles, and projects. ",
+    "link": "https://github.com/hliu23/bcc",
+    "status": "Current Project"
+  }
+}
