@@ -1,1 +1,4 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/js/dist/collapse.js";
+import "@fontsource/montserrat";
+// import in layout.js?

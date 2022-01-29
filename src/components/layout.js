@@ -1,7 +1,8 @@
 import * as React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
-import * as custom from "../styles/layout.module.css";
 
+import "../styles/modified/custom.compressed.css";
+import * as custom from "../styles/layout.module.css";
 
 const Layout = ({ pageTitle, children }) => {
 
@@ -18,7 +19,7 @@ const Layout = ({ pageTitle, children }) => {
     }  
   `)
 
-  const style = {"color": "#171738"};
+  const style = { "color": "#171738" };
 
   return (
     <div className="container-fluid">
@@ -57,7 +58,9 @@ const Layout = ({ pageTitle, children }) => {
           </div>
           <div className="col-md-2">
             {/* announcement */}
-
+            {/* <div class="alert alert-primary" role="alert">
+              A simple primary alert—check it out!
+            </div> */}
           </div>
         </div>
       </div>
